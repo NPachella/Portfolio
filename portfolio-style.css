@@ -184,5 +184,67 @@ h2 {
 		h2 {
 			font-size: 14px;
 		}
+		.project-container {
+	
+	margin: 2vh 4vw;
+	padding: 30px 30px;
+	border-radius: 10px;
+	width: 90vw;
+	grid-template-columns: 1fr;
+	grid-template-rows: repeat(9 1fr);
+	grid-column-gap: 4rem;
+	grid-row-gap: 1rem;
+}
+.icon1 {
+	grid-column-start: 1;
+	grid-row-start: 1;
+	place-self: center;
+}
+.title1 {
+	grid-column-start: 1;
+	grid-row-start: 2;
+	place-self: center;
+}
+.desc1 {
+	grid-column-start: 1;
+	grid-row-start: 3;
+	place-self: center;
+}
+
+
+.icon2 {
+	grid-column-start: 1;
+	grid-row-start: 4;
+	place-self: center;
+	padding-top: 30px;
+}
+.title2 {
+	grid-column-start: 1;
+	grid-row-start: 5;
+	place-self: center;
+}
+.desc2 {
+	grid-column-start: 1;
+	grid-row-start: 6;
+	place-self: center;
+}
+
+
+.icon3 {
+	grid-column-start: 1;
+	grid-row-start: 7;
+	place-self: center;
+	padding-top: 30px;
+}
+.title3 {
+	grid-column-start: 1;
+	grid-row-start: 8;
+	place-self: center;
+}
+.desc3 {
+	grid-column-start: 1;
+	grid-row-start: 9;
+	place-self: center;
+}
 
 	}
