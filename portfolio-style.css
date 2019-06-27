@@ -34,6 +34,28 @@ a:hover {
 
 /* Projects Page styling below */
 
+button {
+	position: absolute;
+	color: #333333;
+	background-color: #9edfbe;
+	display: block;
+	padding: 10px 20px;
+	text-decoration: none;
+	top: 5px;
+	left: 5px;
+	font-size: 20px;
+	font-family: courier;
+}
+button:hover {
+	color: black;
+	background-color: #c6ecd9;
+	cursor: pointer;
+}
+h1 {
+	text-align: center;
+	margin-top: 5vh;
+}
+
 .proj-title {
 	margin-top: 10vh;
 }
