@@ -21,7 +21,6 @@ body {
 	width: 50vw;
 	height: auto;
  	margin: 0 auto;
- 	
 }
 .links img {
 	width: 45px;
@@ -33,79 +32,11 @@ a:hover {
 	opacity: 0.4;
 }
 
-/* Contact Page styling below */
-
-button {
-	position: absolute;
-	color: #333333;
-	background-color: #9edfbe;
-	display: block;
-	padding: 10px 20px;
-	text-decoration: none;
-	top: 5px;
-	left: 5px;
-	font-size: 20px;
-	font-family: courier;
-}
-button:hover {
-	color: black;
-	background-color: #c6ecd9;
-	cursor: pointer;
-}
-h1 {
-	text-align: center;
-	margin-top: 5vh;
-}
-.form-container {
-	display: block;
-	text-align: center;
-	background-color: #9edfbe;
-	margin: 2vh 4vw;
-	padding: 30px 10px;
-	border-radius: 10px;
-	width: 90vw;
-}
-
-#contact-form {
-	display: inline-block;
-	text-align: left;
-	width: 85vw;
-}
-#contact-form label {
-	float: left;
-	padding-bottom: 2px;
-}
-#contact-form input {
-	display: block;
-	width: 100%;
-	margin: 10px 0;
-	border-radius: 5px;
-	padding: 5px;
-	background-color: #f2f2f2;
-}
-textarea {
-	display: block;
-	width: 100%;
-	height: 90px;
-	border-radius: 5px;
-	padding: 5px;
-	background-color: #f2f2f2;
-}
-#contact-form input[type=submit] {
-	width: 150px;
-	margin-top: 30px;
-	padding: 3px;
-	border: 3px solid #9edfbe;
-	font-family: courier;
-	font-size: 0.8em;
-	background-color: #f2f2f2;
-}
-#contact-form input[type=submit]:hover {
-	border: 3px solid #333333;
-	cursor: pointer;
-}
-
 /* Projects Page styling below */
+
+.proj-title {
+	margin-top: 10vh;
+}
 
 .project-container {
 	display: grid;
@@ -126,7 +57,7 @@ textarea {
 	padding-bottom: 3px;
 }
 h2 {
-	font-size: 18px;
+	font-size: 22px;
 }
 .icon1 {
 	grid-column-start: 1;
@@ -181,8 +112,12 @@ h2 {
 
 @media screen 
 	and (max-width: 600px) {
+		
+		.links {
+			width: 100%;
+		}
 		h2 {
-			font-size: 14px;
+			font-size: 20px;
 		}
 		.project-container {
 	
